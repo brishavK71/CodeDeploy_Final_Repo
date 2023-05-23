@@ -6,7 +6,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ec2-user/server/build
+    destination: /home/ec2-user/server
 
 permissions:
   - object: /
