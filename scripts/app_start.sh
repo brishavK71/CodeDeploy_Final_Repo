@@ -2,7 +2,7 @@
 # Change to your application's directory
 cd /home/ec2-user/server/src
 
-npm start
+npm install
 # Start the application using PM2
 pm2 start npm --name "react-app" -- start
 # Save the PM2 process list
