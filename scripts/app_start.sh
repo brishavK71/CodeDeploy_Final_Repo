@@ -1,10 +1,8 @@
 #!/bin/bash
 # Change to your application's directory
 cd /home/ec2-user/server/src
-# Install dependencies
-npm install
-# Build your ReactJS application
-npm run build
+
+npm start
 # Start the application using PM2
 pm2 start npm --name "react-app" -- start
 # Save the PM2 process list
